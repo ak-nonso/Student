@@ -12,6 +12,10 @@ public class TestPrj {
     private String testName;
     private int number;
     
+    public TestPrj(){
+    
+}
+    
     /**
      * @param args the command line arguments
      */
