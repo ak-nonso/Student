@@ -4,28 +4,26 @@
  */
 package testprj;
 
-/** This is branch code - copied code
+/**
  *
  * @author akudi
  */
-public class Student {
-    private String name;
-    private int sid;
+public class PartTime {
     private int semester;
-    //adding semester
 
     /**
-     * @return the name
+     * @return the semester
      */
-    public String getName() {
-        return name;
+    public int getSemester() {
+        return semester;
     }
 
     /**
-     * @param name the name to set
+     * @param semester the semester to set
      */
-    public void setName(String name) {
-        this.name = name;
+    public void setSemester(int semester) {
+        this.semester = semester;
     }
+    
     
 }
