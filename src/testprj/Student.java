@@ -11,6 +11,7 @@ package testprj;
 public class Student {
     private String name;
     private int sid;
+    private int semester;
 
     /**
      * @return the name
